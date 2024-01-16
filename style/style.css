@@ -103,6 +103,5 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
     text-align: center;
     border-color: black;
     border-radius: 16px;
-    padding-bottom: 20px;
     background-color: rgb(240, 221, 196);
 }
