@@ -105,3 +105,19 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
     border-radius: 16px;
     background-color: rgb(240, 221, 196);
 }
+/* free service */
+.free{
+    text-align: center;
+}
+.news{
+    display:flex;
+}
+.sale{
+    border: 10px;
+    padding: 10px;
+    background-color: chocolate;
+}
+.foot{
+    text-align: center;
+    background-color: burlywood;
+}
