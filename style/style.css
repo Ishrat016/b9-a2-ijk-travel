@@ -49,10 +49,14 @@ background-image:url(Group\ 13\ \(1\)\ \(1\).png)
     background-color:rgb(248, 65, 19);
 }
 @media screen and(max-width: 600px)
-    .nav{
-        display: flex-column;
-    }
-
+   {nav {
+    display:none;
+   }
+   .banner{
+    padding: 20px;
+    text-align: end;
+   }
+}
 
 /* container based */
 .container-head{
@@ -79,6 +83,16 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
 .Destination{
     text-align: center;
 }
+@media screen and(max-width: 600px){
+.container-head{
+   flex-direction: column;
+   grid-template-columns: 20px;
+}.container-img{
+    padding:20px;
+}
+.Destination{
+    text-align: none;
+    }}
 /* tour image based */
 .tours-img {
     border-radius: 50px;
@@ -105,6 +119,13 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
     border-radius: 16px;
     background-color: rgb(240, 221, 196);
 }
+@media screen and(max-width: 600px){
+    .why-choose{
+        flex-direction: column;
+    }
+    .box-1,.box-2{ padding:20px;
+}}
+
 /* free service */
 .free{
     text-align: center;
@@ -120,4 +141,16 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;}
 .foot{
     text-align: center;
     background-color: burlywood;
+}
+@media screen and(max-width: 600px){
+    .free{
+        text-align: none;
+    }
+    .news{
+    flex-direction: column;
+    }
+    .foot{
+        text-align: none;
+
+    }
 }
